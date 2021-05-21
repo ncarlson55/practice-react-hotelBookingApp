@@ -5,8 +5,7 @@ export default class FreaturedRooms extends Component {
   static contextType = RoomContext;
 
   render() {
-    const value = this.context;
-    console.log(value);
-    return <div>hello from feature rooms {value} </div>;
+ 
+    return <div>hello from feature rooms {this.props.value} </div>;
   }
 }
